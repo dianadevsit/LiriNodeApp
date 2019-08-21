@@ -8,6 +8,5 @@ exports.spotify = {
 }
 
 exports.movies = {
-    id: process.env.OMBD_API_KEY,
-    secret: process.env.OMBD_SECCRET
+    id: process.env.OMBD_SECRET
 }
