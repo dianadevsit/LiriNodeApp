@@ -57,6 +57,7 @@ function spotifyThis() {
         if (err) {
             logThis(err);
         }
+//add else statement for wrong input
 
 //Once user input is placed, these should be logged on the screen
         var userSong = data.tracks.items;
